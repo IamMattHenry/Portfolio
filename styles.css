@@ -22,3 +22,30 @@ main > .landing,
 main > .project {
     height: 100vh;
 }
+
+main > .contact {
+    height: 80vh;
+}
+
+.icon-link {
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon-link > i {
+    margin-bottom: .3rem;
+    margin-right: .3rem;
+}
+
+.my-name {
+    color: hotpink;
+}
+
+.skills-icon {
+    transition: 0.2s ease-in;
+}
+
+.skills-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 1px rgba(0,0,0,0.5);
+}

@@ -6,3 +6,15 @@ navItems.forEach(link => {
         link.classList.add('active');
     });
 });
+
+const slideRight = {
+    distance: '200%',
+    delay: '800',
+    reset: true,
+    origin: 'left',
+    opacity: 0
+}
+
+ScrollReveal().reveal('.landing-profile', {delay: 600, reset: true});
+ScrollReveal().reveal('.intro', slideRight);
+
