@@ -49,3 +49,32 @@ main > .contact {
     transform: scale(1.1);
     box-shadow: 0 0 25px 1px rgba(0,0,0,0.5);
 }
+
+.carousel {
+    width: 50vw !important;
+}
+
+@media (max-width: 991.98px) {
+    .landing-profile {
+        height: 200px !important;
+        width: 200px !important;
+    }
+    .skills-border {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .skills-icon {
+        height: auto;
+        width: 40px;
+    }
+    #projects {
+        margin-top: 1rem;
+    }
+    .proj-item {
+        height: 350px;
+        width: 80vw;
+    }
+    .carousel {
+        width: 80vw !important;
+    }
+}

@@ -17,4 +17,3 @@ const slideRight = {
 
 ScrollReveal().reveal('.landing-profile', {delay: 600, reset: true});
 ScrollReveal().reveal('.intro', slideRight);
-
