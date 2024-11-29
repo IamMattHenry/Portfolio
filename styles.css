@@ -78,3 +78,8 @@ main > .contact {
         width: 80vw !important;
     }
 }
+
+.carousel-item:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.10);
+}
