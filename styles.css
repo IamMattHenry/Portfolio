@@ -23,7 +23,8 @@ main > .project {
     height: 100vh;
 }
 
-main > .contact {
+main > .contact,
+main > .resume {
     height: 80vh;
 }
 
